@@ -1,0 +1,24 @@
+{
+  "name": "unglo-frontend-ws",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "node dist/server.js",
+    "build": "tsc"
+  },
+  "author": "juancalderonx",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.10.5",
+    "express": "^4.19.2",
+    "graphql": "^16.8.2",
+    "graphql-ws": "^5.16.0",
+    "ws": "^8.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.5",
+    "@types/ws": "^8.5.10",
+    "typescript": "^5.4.5"
+  }
+}
